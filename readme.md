@@ -76,7 +76,7 @@ git clone https://github.com/seck024/restaurant.git
 
 ## 🔗 Accès au site en ligne
 
-👉 [Accéder au site] *(https://seck-papa.fr/restaurant)*
+👉 [Accéder au site] *http://restaurant2a.fr/*
 
 ---
 
