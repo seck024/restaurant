@@ -1,0 +1,192 @@
+.site{
+    margin: 0;
+    background-color: #6d6dbe;
+    overflow-x: hidden;
+}
+.nav-barre{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    height: 83px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.nav-barre i:hover{
+    color: white;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbar{
+    left: 65%;
+    display: none;
+}
+.iconne{
+position: absolute;
+text-align: center;
+margin-left: 45%;
+display: flex;
+flex-direction: row;
+}
+.image-iconne{
+border-radius: 50%;
+}
+.image-text{
+display: flex;
+flex-direction: row;
+margin-left:40px;
+margin-top: 50px;
+
+}
+.entrees{
+display: flex;
+flex-direction: column;
+margin-left: 33px;
+margin: 20px;
+margin-top: 90px;
+}
+.image-plats{
+height: 500px;
+width: 360px;
+border-radius: 190px;
+}
+.button{
+margin-top: 100px;
+margin-left: 50px;
+border-radius: 50px;
+height: 50px;
+width: 130px;
+}
+.text-plats{
+display: flex;
+flex-direction: row;
+margin-left: 720px;
+}
+.plats{
+display: flex;
+flex-direction: column;
+margin: 20px;
+margin-top: 120px;
+}
+.image-dessert{
+display: flex;
+flex-direction: row;
+margin-left:40px;
+margin-top: 50px;
+}
+.dessert{
+display: flex;
+flex-direction: column;
+margin-left: 33px;
+margin: 20px;
+margin-top: 90px;
+}
+.carte{
+background-color: #0c0c0c;
+height: 500px;
+width: auto;
+display: flex;
+flex-direction: row;
+}
+.text-carte{
+display: flex;
+flex-direction: column;
+margin-left: 20%;
+justify-content: center;
+}
+.text-carte h2{
+color: coral;
+}
+.text-carte button{
+height: 35px;
+border-radius: 20px;
+background-color: coral;
+margin-top: 50px;
+}
+.recruter{
+background-color: #0c0c0c;
+justify-content: center;
+}
+.reserve{
+display: flex;
+background-color: #0c0c0c;
+color: coral;
+justify-content: center;
+gap: 180px;
+}
+.image-container img{
+    height: 198px;
+    width: 100%;
+    object-fit: cover;
+}
+.pub{
+    position: relative;
+    top: 40%;
+}
+.dispo ul{
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+.reserve1{
+text-align: center;
+background-color: #0c0c0c;
+color: coral;
+}
+.reserve1 form{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.recruter form{
+justify-content: center;
+text-align: center;
+flex-direction: column;
+display: flex;
+align-items: center;
+}
+.recruter label{
+color: coral;
+}
+#recruter h1{
+text-align: center;
+color: coral;
+}
+#recruter p{
+text-align: center;
+color: coral;
+}
+/* admin*/
+
+@media screen and (max-width: 768px){
+.notre-carte{
+    display: none;
+}
+    .recrutons{
+        display: none;
+    }
+    .iconne{
+        margin-left: 0;
+    }
+    .reservez{
+        display: none;
+    }
+    .propos{
+        display: none;
+    }
+    .container-fluid{
+        position: fixed;
+        left: 0px;
+    }
+    .text-plats{
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .image-acceuil img{
+        object-fit: cover;
+    }
+    .reserve{
+        gap: 50px;
+    }
+}

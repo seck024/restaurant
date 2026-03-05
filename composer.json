@@ -1,0 +1,12 @@
+{
+    "name": "papa-amadou-seck/restaurant",
+    "authors": [
+        {
+            "name": "Papa Amadou SECK",
+            "email": "seckpapaamadou96@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^7.0"
+    }
+}
