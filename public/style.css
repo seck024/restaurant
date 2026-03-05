@@ -157,8 +157,11 @@ color: coral;
 text-align: center;
 color: coral;
 }
+<<<<<<< HEAD
 /* admin*/
 
+=======
+>>>>>>> 39f50a591dd6e3afd8d581ed3ceed1ee5971872c
 @media screen and (max-width: 768px){
 .notre-carte{
     display: none;
